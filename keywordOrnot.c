@@ -27,7 +27,7 @@ int main()
     }
     else
     {
-        printf("Not a keyword :-(");
+        printf("%s Not a keyword :-(",str);
     }
 
     return 0;
