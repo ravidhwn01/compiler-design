@@ -15,7 +15,7 @@ int main()
     {
         c = fgetc(ptr);
 
-        printf("%c", c);
+        printf("%c", c);  // not removing  extra white spaces
 
     } while (c != EOF);
     // printf("the character I read was %c\n",c);

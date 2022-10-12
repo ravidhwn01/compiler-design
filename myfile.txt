@@ -1,3 +1,15 @@
 In this approach, a character is read using fgetc().
-Using feof() function check for end of file. since feof() returns true after it reaches the end.
+Using feof() function                    
+
+
+
+
+
+ 
+  
+   
+    
+     
+      
+       check for end of file. since feof() returns true after it reaches the end.
 Use logical NOT operator(!) so that when it reaches end condition become false and loop stop.
