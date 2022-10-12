@@ -2,8 +2,11 @@
 
 int main()
 {
-    char keyWord[32][10] = {"for", "int", "float", "char", "double", "long", "long long", "bool", "string", "while", "if", "goto", "extreme", "const", "signed", "sizeof", "continue", "void", "default"};
+    char keyWord[32][10] =
+     {"for", "int", "float", "char", "double", "long", "auto", "bool", "string", "while", "if", "goto", "extreme", "const", "signed", "sizeof", "continue", "void", "default","return","short","static","typedef","union","switch","struct","enum","unsigned","volatile","else","register",};
 
+			
+			
     char str[10];
     printf("Enter the keyword: ");
     scanf("%s", &str);
